@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ViewController2.h"
 @interface ViewController ()
 
 @end
@@ -17,7 +17,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
 }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    UIViewController *VC = segue.destinationViewController;
+    [VC setValue:self forKey:@"VCDelegate"];
+
+}
+
+- (void)setStr:(NSString *)str {
+    
+    _resultLabel.text = str;
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

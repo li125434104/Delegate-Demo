@@ -12,8 +12,8 @@
 		A11D46961AA564CB00C42679 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11D46951AA564CB00C42679 /* ViewController.m */; };
 		A11D46991AA564CB00C42679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11D46971AA564CB00C42679 /* Main.storyboard */; };
 		A11D469B1AA564CB00C42679 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11D469A1AA564CB00C42679 /* Images.xcassets */; };
-		A11D469E1AA564CB00C42679 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11D469C1AA564CB00C42679 /* LaunchScreen.xib */; };
 		A11D46AA1AA564CB00C42679 /* DelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A11D46A91AA564CB00C42679 /* DelegateTests.m */; };
+		A11D46B51AA566B000C42679 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = A11D46B41AA566B000C42679 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +36,11 @@
 		A11D46951AA564CB00C42679 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A11D46981AA564CB00C42679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A11D469A1AA564CB00C42679 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A11D469D1AA564CB00C42679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A11D46A31AA564CB00C42679 /* DelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11D46A81AA564CB00C42679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A11D46A91AA564CB00C42679 /* DelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateTests.m; sourceTree = "<group>"; };
+		A11D46B31AA566B000C42679 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		A11D46B41AA566B000C42679 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +86,10 @@
 				A11D46921AA564CB00C42679 /* AppDelegate.m */,
 				A11D46941AA564CB00C42679 /* ViewController.h */,
 				A11D46951AA564CB00C42679 /* ViewController.m */,
+				A11D46B31AA566B000C42679 /* ViewController2.h */,
+				A11D46B41AA566B000C42679 /* ViewController2.m */,
 				A11D46971AA564CB00C42679 /* Main.storyboard */,
 				A11D469A1AA564CB00C42679 /* Images.xcassets */,
-				A11D469C1AA564CB00C42679 /* LaunchScreen.xib */,
 				A11D468D1AA564CB00C42679 /* Supporting Files */,
 			);
 			path = Delegate;
@@ -200,7 +202,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A11D46991AA564CB00C42679 /* Main.storyboard in Resources */,
-				A11D469E1AA564CB00C42679 /* LaunchScreen.xib in Resources */,
 				A11D469B1AA564CB00C42679 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A11D46961AA564CB00C42679 /* ViewController.m in Sources */,
+				A11D46B51AA566B000C42679 /* ViewController2.m in Sources */,
 				A11D46931AA564CB00C42679 /* AppDelegate.m in Sources */,
 				A11D46901AA564CB00C42679 /* main.m in Sources */,
 			);
@@ -250,14 +252,6 @@
 				A11D46981AA564CB00C42679 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A11D469C1AA564CB00C42679 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A11D469D1AA564CB00C42679 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
